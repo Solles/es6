@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0"
+  },
+  "scripts": {
+    "runDist": "node dist",
+    "runSrc": "node --experimental-modules src",
+    "transpile": "./node_modules/.bin/babel src --out-dir dist --presets=@babel/env"
+  }
+}
