@@ -1,4 +1,9 @@
 {
+  "name": "@solles/es6",
+  "version": "0.0.3",
+  "description": "EcmaScript 6 sample code",
+  "main": "dist/index.js",
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
@@ -10,5 +15,15 @@
     "runDist": "node dist",
     "runSrc": "node --experimental-modules src",
     "transpile": "./node_modules/.bin/babel src --out-dir dist --presets=@babel/env"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solles/es6.git"
+  },
+  "author": "Ryan Nibert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solles/es6/issues"
+  },
+  "homepage": "https://github.com/Solles/es6#readme"
 }
